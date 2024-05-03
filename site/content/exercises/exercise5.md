@@ -84,7 +84,7 @@ f v (x:xs) = f (v `op` x) xs
 ```
 Which maps the empty list to an accumulator value, and any other list
 to the result of processing the tail using a new accumulator obtained
-by appling `op` to the accumulator and the head of the list.
+by applying `op` to the accumulator and the head of the list.
 
 {{< question >}}
 If presented with an infinite list which you wish to process in this
